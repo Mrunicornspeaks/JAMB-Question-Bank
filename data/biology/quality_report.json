@@ -1,0 +1,63 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 923,
+  "shortfall": 77,
+  "exact_unique_fingerprints": 923,
+  "diagram_or_context_review_flags": 152,
+  "similar_stem_pairs_requiring_review": [
+    {
+      "id": "JAMB-BIO-DRAFT-0144",
+      "similar_to": "JAMB-BIO-DRAFT-0135",
+      "stem_similarity": 1.0
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0149",
+      "similar_to": "JAMB-BIO-DRAFT-0046",
+      "stem_similarity": 0.909
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0476",
+      "similar_to": "JAMB-BIO-DRAFT-0174",
+      "stem_similarity": 0.928
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0651",
+      "similar_to": "JAMB-BIO-DRAFT-0494",
+      "stem_similarity": 0.911
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0664",
+      "similar_to": "JAMB-BIO-DRAFT-0363",
+      "stem_similarity": 0.959
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0666",
+      "similar_to": "JAMB-BIO-DRAFT-0659",
+      "stem_similarity": 0.958
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0837",
+      "similar_to": "JAMB-BIO-DRAFT-0665",
+      "stem_similarity": 0.975
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0849",
+      "similar_to": "JAMB-BIO-DRAFT-0846",
+      "stem_similarity": 0.962
+    },
+    {
+      "id": "JAMB-BIO-DRAFT-0896",
+      "similar_to": "JAMB-BIO-DRAFT-0423",
+      "stem_similarity": 0.94
+    }
+  ],
+  "answers_verified": 0,
+  "approved_for_bot": 0,
+  "limitations": [
+    "Source transcription, source question numbering and source exam authenticity not fully verified.",
+    "Diagram flags are conservative heuristics, not exhaustive labels; image_url is null.",
+    "Near duplicate stems require manual review; shared wording does not prove identical meaning.",
+    "Source diagrams remain in the linked PDF.",
+    "Source PDF contains malformed text and missing options; incomplete parses excluded."
+  ]
+}
