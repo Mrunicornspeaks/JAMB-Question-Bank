@@ -1,0 +1,14 @@
+{
+  "total_draft_questions": 1000,
+  "original_records_preserved": 500,
+  "new_records": 500,
+  "new_standalone_questions": 245,
+  "new_comprehension_questions": 255,
+  "passages": 55,
+  "exact_duplicate_ids": 0,
+  "exact_duplicate_fingerprints": 0,
+  "verified_answers": 0,
+  "manual_review_required": true,
+  "source": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Use-Of-English-Past-Questions-1983-2004-By-LarnEdu.pdf",
+  "reuse": "Publisher permits credited sharing and prohibits direct or indirect monetisation; exam-body rights not independently verified."
+}
