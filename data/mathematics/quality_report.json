@@ -1,0 +1,16 @@
+{
+  "requested_questions": 1000,
+  "extracted_candidates": 737,
+  "shortfall_to_requested_count": 263,
+  "verified_usable_questions": 0,
+  "verified_answers": 0,
+  "unique_text_fingerprints": 737,
+  "source_pdf_pages": 74,
+  "limitations": [
+    "PDF extraction damages mathematical layout and sometimes question boundaries.",
+    "Four or five option labels do not prove that options belong to the question.",
+    "Question numbers and year boundaries are unreliable; year intentionally left null.",
+    "Diagrams are available in the linked source PDF, not embedded in this text dataset.",
+    "These candidates must not be counted as a completed 1000-question bank."
+  ]
+}
