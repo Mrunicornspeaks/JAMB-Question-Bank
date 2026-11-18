@@ -1,0 +1,43 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 865,
+  "shortfall": 135,
+  "unique_exact_fingerprints": 865,
+  "diagram_review_flags": 135,
+  "shared_context_review_flags": 270,
+  "formula_and_reaction_review_required": 865,
+  "similar_stem_pairs_requiring_review": [
+    {
+      "id": "JAMB-CHEM-DRAFT-0131",
+      "similar_to": "JAMB-CHEM-DRAFT-0129",
+      "stem_similarity": 0.972
+    },
+    {
+      "id": "JAMB-CHEM-DRAFT-0414",
+      "similar_to": "JAMB-CHEM-DRAFT-0161",
+      "stem_similarity": 0.978
+    },
+    {
+      "id": "JAMB-CHEM-DRAFT-0650",
+      "similar_to": "JAMB-CHEM-DRAFT-0486",
+      "stem_similarity": 0.933
+    },
+    {
+      "id": "JAMB-CHEM-DRAFT-0802",
+      "similar_to": "JAMB-CHEM-DRAFT-0526",
+      "stem_similarity": 0.931
+    }
+  ],
+  "verified_answers": 0,
+  "approved_for_bot": 0,
+  "source_pdf_pages": 77,
+  "source_column_contexts": 148,
+  "limitations": [
+    "Chemical subscripts, charges, arrows and structure drawings may be lost or corrupted in extracted text.",
+    "Labelled option completeness does not prove correct source association.",
+    "Diagrams are not extracted or hosted; image_url is null.",
+    "Raw source contexts are provided for review, not reliable substitutes for the PDF.",
+    "Year is intentionally null; source year and authenticity not verified.",
+    "All records require human review before bot use."
+  ]
+}
