@@ -1,0 +1,37 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 842,
+  "shortfall": 158,
+  "unique_exact_fingerprints": 842,
+  "diagram_or_context_review_flags": 203,
+  "formula_and_unit_review_required": 842,
+  "similar_stem_pairs_requiring_review": [
+    {
+      "id": "JAMB-PHY-DRAFT-0037",
+      "similar_to": "JAMB-PHY-DRAFT-0036",
+      "stem_similarity": 0.958
+    },
+    {
+      "id": "JAMB-PHY-DRAFT-0127",
+      "similar_to": "JAMB-PHY-DRAFT-0110",
+      "stem_similarity": 1.0
+    }
+  ],
+  "verified_answers": 0,
+  "approved_for_bot": 0,
+  "source_pdf_pages": 103,
+  "checks": [
+    "CSV and JSON contain the same number of records.",
+    "All IDs and case-sensitive question-plus-sorted-option fingerprints are unique.",
+    "Each record has four or five nonempty labelled options.",
+    "Source PDF page references are between 1 and 103."
+  ],
+  "limitations": [
+    "Option labels alone do not prove correct question/option association.",
+    "Superscripts, roots, fractions, scientific notation and units may be damaged in text extraction.",
+    "Some questions include text fragments from neighbouring columns.",
+    "Diagrams are not extracted or hosted; image_url is null.",
+    "Years are intentionally null because heading placement and reading order are unreliable.",
+    "Near duplicates require manual review; quantities and unit case must be preserved."
+  ]
+}
