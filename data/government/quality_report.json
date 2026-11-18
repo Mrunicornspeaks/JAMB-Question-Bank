@@ -1,0 +1,216 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 963,
+  "shortfall": 37,
+  "exact_unique_fingerprints": 963,
+  "exact_duplicates_removed": 33,
+  "duplicate_source_occurrences": [
+    {
+      "source_page": 8,
+      "duplicate_of": "JAMB-GOV-DRAFT-0101"
+    },
+    {
+      "source_page": 9,
+      "duplicate_of": "JAMB-GOV-DRAFT-0111"
+    },
+    {
+      "source_page": 9,
+      "duplicate_of": "JAMB-GOV-DRAFT-0118"
+    },
+    {
+      "source_page": 11,
+      "duplicate_of": "JAMB-GOV-DRAFT-0140"
+    },
+    {
+      "source_page": 12,
+      "duplicate_of": "JAMB-GOV-DRAFT-0170"
+    },
+    {
+      "source_page": 13,
+      "duplicate_of": "JAMB-GOV-DRAFT-0190"
+    },
+    {
+      "source_page": 14,
+      "duplicate_of": "JAMB-GOV-DRAFT-0198"
+    },
+    {
+      "source_page": 15,
+      "duplicate_of": "JAMB-GOV-DRAFT-0218"
+    },
+    {
+      "source_page": 17,
+      "duplicate_of": "JAMB-GOV-DRAFT-0261"
+    },
+    {
+      "source_page": 18,
+      "duplicate_of": "JAMB-GOV-DRAFT-0277"
+    },
+    {
+      "source_page": 19,
+      "duplicate_of": "JAMB-GOV-DRAFT-0279"
+    },
+    {
+      "source_page": 19,
+      "duplicate_of": "JAMB-GOV-DRAFT-0295"
+    },
+    {
+      "source_page": 20,
+      "duplicate_of": "JAMB-GOV-DRAFT-0301"
+    },
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-GOV-DRAFT-0329"
+    },
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-GOV-DRAFT-0340"
+    },
+    {
+      "source_page": 26,
+      "duplicate_of": "JAMB-GOV-DRAFT-0397"
+    },
+    {
+      "source_page": 27,
+      "duplicate_of": "JAMB-GOV-DRAFT-0411"
+    },
+    {
+      "source_page": 28,
+      "duplicate_of": "JAMB-GOV-DRAFT-0432"
+    },
+    {
+      "source_page": 30,
+      "duplicate_of": "JAMB-GOV-DRAFT-0469"
+    },
+    {
+      "source_page": 31,
+      "duplicate_of": "JAMB-GOV-DRAFT-0486"
+    },
+    {
+      "source_page": 32,
+      "duplicate_of": "JAMB-GOV-DRAFT-0495"
+    },
+    {
+      "source_page": 34,
+      "duplicate_of": "JAMB-GOV-DRAFT-0525"
+    },
+    {
+      "source_page": 35,
+      "duplicate_of": "JAMB-GOV-DRAFT-0544"
+    },
+    {
+      "source_page": 37,
+      "duplicate_of": "JAMB-GOV-DRAFT-0587"
+    },
+    {
+      "source_page": 39,
+      "duplicate_of": "JAMB-GOV-DRAFT-0610"
+    },
+    {
+      "source_page": 39,
+      "duplicate_of": "JAMB-GOV-DRAFT-0619"
+    },
+    {
+      "source_page": 44,
+      "duplicate_of": "JAMB-GOV-DRAFT-0682"
+    },
+    {
+      "source_page": 49,
+      "duplicate_of": "JAMB-GOV-DRAFT-0771"
+    },
+    {
+      "source_page": 52,
+      "duplicate_of": "JAMB-GOV-DRAFT-0827"
+    },
+    {
+      "source_page": 54,
+      "duplicate_of": "JAMB-GOV-DRAFT-0849"
+    },
+    {
+      "source_page": 57,
+      "duplicate_of": "JAMB-GOV-DRAFT-0902"
+    },
+    {
+      "source_page": 58,
+      "duplicate_of": "JAMB-GOV-DRAFT-0919"
+    },
+    {
+      "source_page": 59,
+      "duplicate_of": "JAMB-GOV-DRAFT-0925"
+    }
+  ],
+  "similar_stem_pairs_requiring_review": [
+    {
+      "id": "JAMB-GOV-DRAFT-0311",
+      "similar_to": "JAMB-GOV-DRAFT-0087",
+      "stem_similarity": 1.0
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0553",
+      "similar_to": "JAMB-GOV-DRAFT-0012",
+      "stem_similarity": 0.981
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0652",
+      "similar_to": "JAMB-GOV-DRAFT-0061",
+      "stem_similarity": 1.0
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0672",
+      "similar_to": "JAMB-GOV-DRAFT-0084",
+      "stem_similarity": 0.955
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0689",
+      "similar_to": "JAMB-GOV-DRAFT-0276",
+      "stem_similarity": 0.977
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0691",
+      "similar_to": "JAMB-GOV-DRAFT-0058",
+      "stem_similarity": 1.0
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0692",
+      "similar_to": "JAMB-GOV-DRAFT-0374",
+      "stem_similarity": 1.0
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0714",
+      "similar_to": "JAMB-GOV-DRAFT-0170",
+      "stem_similarity": 0.967
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0716",
+      "similar_to": "JAMB-GOV-DRAFT-0181",
+      "stem_similarity": 0.983
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0731",
+      "similar_to": "JAMB-GOV-DRAFT-0123",
+      "stem_similarity": 0.969
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0799",
+      "similar_to": "JAMB-GOV-DRAFT-0166",
+      "stem_similarity": 1.0
+    },
+    {
+      "id": "JAMB-GOV-DRAFT-0802",
+      "similar_to": "JAMB-GOV-DRAFT-0117",
+      "stem_similarity": 1.0
+    }
+  ],
+  "historical_context_review_flags": 237,
+  "diagram_reference_flags": 0,
+  "answers_verified": 0,
+  "approved_for_bot": 0,
+  "source_pdf_pages": 61,
+  "limitations": [
+    "Structural extraction only; spelling, option associations and source authenticity are not fully verified.",
+    "Year is null because the PDF has unreliable year headings and reading order.",
+    "Historical officeholders, institutions and constitutional provisions must be interpreted in the original exam context.",
+    "Similar stems are flagged for manual review; exact deduplication does not establish semantic uniqueness.",
+    "Malformed parses were excluded. No verified answer key was available in this PDF.",
+    "No images are hosted. Diagram and historical-context flags are heuristics, not exhaustive classifications."
+  ]
+}
