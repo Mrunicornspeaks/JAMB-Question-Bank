@@ -1,0 +1,222 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 904,
+  "shortfall": 96,
+  "exact_unique_fingerprints": 904,
+  "exact_duplicates_removed": 38,
+  "duplicate_source_occurrences": [
+    {
+      "source_page": 2,
+      "duplicate_of": "JAMB-ECON-DRAFT-0011"
+    },
+    {
+      "source_page": 3,
+      "duplicate_of": "JAMB-ECON-DRAFT-0013"
+    },
+    {
+      "source_page": 3,
+      "duplicate_of": "JAMB-ECON-DRAFT-0020"
+    },
+    {
+      "source_page": 5,
+      "duplicate_of": "JAMB-ECON-DRAFT-0038"
+    },
+    {
+      "source_page": 10,
+      "duplicate_of": "JAMB-ECON-DRAFT-0101"
+    },
+    {
+      "source_page": 12,
+      "duplicate_of": "JAMB-ECON-DRAFT-0116"
+    },
+    {
+      "source_page": 13,
+      "duplicate_of": "JAMB-ECON-DRAFT-0131"
+    },
+    {
+      "source_page": 14,
+      "duplicate_of": "JAMB-ECON-DRAFT-0146"
+    },
+    {
+      "source_page": 20,
+      "duplicate_of": "JAMB-ECON-DRAFT-0216"
+    },
+    {
+      "source_page": 20,
+      "duplicate_of": "JAMB-ECON-DRAFT-0224"
+    },
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-ECON-DRAFT-0250"
+    },
+    {
+      "source_page": 28,
+      "duplicate_of": "JAMB-ECON-DRAFT-0320"
+    },
+    {
+      "source_page": 30,
+      "duplicate_of": "JAMB-ECON-DRAFT-0354"
+    },
+    {
+      "source_page": 31,
+      "duplicate_of": "JAMB-ECON-DRAFT-0362"
+    },
+    {
+      "source_page": 33,
+      "duplicate_of": "JAMB-ECON-DRAFT-0392"
+    },
+    {
+      "source_page": 35,
+      "duplicate_of": "JAMB-ECON-DRAFT-0407"
+    },
+    {
+      "source_page": 37,
+      "duplicate_of": "JAMB-ECON-DRAFT-0432"
+    },
+    {
+      "source_page": 39,
+      "duplicate_of": "JAMB-ECON-DRAFT-0459"
+    },
+    {
+      "source_page": 41,
+      "duplicate_of": "JAMB-ECON-DRAFT-0482"
+    },
+    {
+      "source_page": 49,
+      "duplicate_of": "JAMB-ECON-DRAFT-0580"
+    },
+    {
+      "source_page": 50,
+      "duplicate_of": "JAMB-ECON-DRAFT-0586"
+    },
+    {
+      "source_page": 52,
+      "duplicate_of": "JAMB-ECON-DRAFT-0606"
+    },
+    {
+      "source_page": 52,
+      "duplicate_of": "JAMB-ECON-DRAFT-0614"
+    },
+    {
+      "source_page": 54,
+      "duplicate_of": "JAMB-ECON-DRAFT-0628"
+    },
+    {
+      "source_page": 56,
+      "duplicate_of": "JAMB-ECON-DRAFT-0660"
+    },
+    {
+      "source_page": 59,
+      "duplicate_of": "JAMB-ECON-DRAFT-0691"
+    },
+    {
+      "source_page": 60,
+      "duplicate_of": "JAMB-ECON-DRAFT-0698"
+    },
+    {
+      "source_page": 63,
+      "duplicate_of": "JAMB-ECON-DRAFT-0733"
+    },
+    {
+      "source_page": 65,
+      "duplicate_of": "JAMB-ECON-DRAFT-0740"
+    },
+    {
+      "source_page": 66,
+      "duplicate_of": "JAMB-ECON-DRAFT-0752"
+    },
+    {
+      "source_page": 69,
+      "duplicate_of": "JAMB-ECON-DRAFT-0789"
+    },
+    {
+      "source_page": 70,
+      "duplicate_of": "JAMB-ECON-DRAFT-0802"
+    },
+    {
+      "source_page": 70,
+      "duplicate_of": "JAMB-ECON-DRAFT-0809"
+    },
+    {
+      "source_page": 71,
+      "duplicate_of": "JAMB-ECON-DRAFT-0814"
+    },
+    {
+      "source_page": 71,
+      "duplicate_of": "JAMB-ECON-DRAFT-0821"
+    },
+    {
+      "source_page": 75,
+      "duplicate_of": "JAMB-ECON-DRAFT-0878"
+    },
+    {
+      "source_page": 76,
+      "duplicate_of": "JAMB-ECON-DRAFT-0886"
+    },
+    {
+      "source_page": 77,
+      "duplicate_of": "JAMB-ECON-DRAFT-0903"
+    }
+  ],
+  "manual_exclusions": [
+    {
+      "id": "JAMB-ECON-DRAFT-0323",
+      "duplicate_of": "JAMB-ECON-DRAFT-0141",
+      "reason": "Same least-cost question and equivalent reordered options; wording and transcription differences only."
+    },
+    {
+      "id": "JAMB-ECON-DRAFT-0430",
+      "duplicate_of": "JAMB-ECON-DRAFT-0294",
+      "reason": "Same question and options; type/types wording difference only."
+    },
+    {
+      "id": "JAMB-ECON-DRAFT-0639",
+      "duplicate_of": "JAMB-ECON-DRAFT-0637",
+      "reason": "Same dependency-ratio question and options; stray printed number in the stem."
+    },
+    {
+      "id": "JAMB-ECON-DRAFT-0261",
+      "reason": "Final option is truncated to Highway-; excluded as incomplete."
+    }
+  ],
+  "additional_duplicates_removed_after_review": 3,
+  "incomplete_records_removed_after_review": 1,
+  "similar_stem_pairs_requiring_review": [
+    {
+      "id": "JAMB-ECON-DRAFT-0093",
+      "similar_to": "JAMB-ECON-DRAFT-0092",
+      "stem_similarity": 0.949
+    },
+    {
+      "id": "JAMB-ECON-DRAFT-0250",
+      "similar_to": "JAMB-ECON-DRAFT-0184",
+      "stem_similarity": 0.955
+    },
+    {
+      "id": "JAMB-ECON-DRAFT-0528",
+      "similar_to": "JAMB-ECON-DRAFT-0166",
+      "stem_similarity": 0.986
+    },
+    {
+      "id": "JAMB-ECON-DRAFT-0855",
+      "similar_to": "JAMB-ECON-DRAFT-0026",
+      "stem_similarity": 1.0
+    }
+  ],
+  "answers_verified": 0,
+  "approved_for_bot": 0,
+  "source_pdf_pages": 77,
+  "source_column_contexts": 152,
+  "diagram_required_count": 92,
+  "requires_shared_context_review_count": 112,
+  "requires_calculation_or_notation_review_count": 110,
+  "historical_context_review_required_count": 26,
+  "limitations": [
+    "All records are unverified extraction drafts, not ready for bot delivery.",
+    "Four or five option labels do not establish text accuracy or correct option association.",
+    "Graphs are not extracted or hosted. Tables, currency symbols, subscripts and fractions may be corrupted.",
+    "Review flags are conservative heuristics and overlap; they are not exhaustive classifications.",
+    "Year and answers are null. The source has inconsistent year headings and no verified answer key was identified.",
+    "Exact deduplication is case-sensitive to preserve mathematical variable distinctions; semantic duplicates can remain."
+  ]
+}
