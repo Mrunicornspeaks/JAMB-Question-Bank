@@ -1,0 +1,39 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 476,
+  "shortfall": 524,
+  "exact_unique_fingerprints": 476,
+  "exact_duplicates_removed": 0,
+  "duplicate_source_occurrences": [],
+  "manual_exclusions": [],
+  "additional_duplicates_removed_after_review": 0,
+  "incomplete_records_removed_after_review": 0,
+  "similar_stem_pairs_requiring_review": [
+    {
+      "id": "JAMB-COM-DRAFT-0086",
+      "similar_to": "JAMB-COM-DRAFT-0032",
+      "stem_similarity": 0.942
+    },
+    {
+      "id": "JAMB-COM-DRAFT-0469",
+      "similar_to": "JAMB-COM-DRAFT-0207",
+      "stem_similarity": 0.964
+    }
+  ],
+  "answers_verified": 0,
+  "approved_for_bot": 0,
+  "source_pdf_pages": 30,
+  "source_column_contexts": 60,
+  "diagram_required_count": 10,
+  "requires_shared_context_review_count": 245,
+  "requires_calculation_or_notation_review_count": 24,
+  "historical_context_review_required_count": 14,
+  "limitations": [
+    "All records are unverified extraction drafts, not ready for bot delivery.",
+    "Four or five option labels do not establish text accuracy or correct option association.",
+    "Graphs are not extracted or hosted. Tables, currency symbols, subscripts and fractions may be corrupted.",
+    "Review flags are conservative heuristics and overlap; they are not exhaustive classifications.",
+    "Year and answers are null. The source has inconsistent year headings and no verified answer key was identified.",
+    "Exact deduplication is case-sensitive to preserve mathematical variable distinctions; semantic duplicates can remain."
+  ]
+}
