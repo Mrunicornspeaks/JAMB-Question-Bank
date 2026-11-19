@@ -1,0 +1,39 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 458,
+  "shortfall": 542,
+  "exact_unique_fingerprints": 458,
+  "exact_duplicates_removed": 0,
+  "duplicate_source_occurrences": [],
+  "manual_exclusions": [
+    {
+      "id": "JAMB-ACC-DRAFT-0214",
+      "duplicate_of": "JAMB-ACC-DRAFT-0220",
+      "reason": "Alternative extraction of the same page 21 partnership table and question, with a misread question number and stray table labels."
+    },
+    {
+      "id": "JAMB-ACC-DRAFT-0030",
+      "duplicate_of": "JAMB-ACC-DRAFT-0031",
+      "reason": "Truncated alternative extraction of the same hockey club subscription table and question, with identical options and source page."
+    }
+  ],
+  "additional_duplicates_removed_after_review": 2,
+  "incomplete_records_removed_after_review": 0,
+  "similar_stem_pairs_requiring_review": [],
+  "answers_verified": 0,
+  "approved_for_bot": 0,
+  "source_pdf_pages": 42,
+  "source_column_contexts": 83,
+  "diagram_required_count": 21,
+  "requires_shared_context_review_count": 293,
+  "requires_calculation_or_notation_review_count": 169,
+  "historical_context_review_required_count": 29,
+  "limitations": [
+    "All records are unverified extraction drafts, not ready for bot delivery.",
+    "Four or five option labels do not establish text accuracy or correct option association.",
+    "Graphs are not extracted or hosted. Tables, currency symbols, subscripts and fractions may be corrupted.",
+    "Review flags are conservative heuristics and overlap; they are not exhaustive classifications.",
+    "Year and answers are null. The source has inconsistent year headings and no verified answer key was identified.",
+    "Exact deduplication is case-sensitive to preserve mathematical variable distinctions; semantic duplicates can remain."
+  ]
+}
