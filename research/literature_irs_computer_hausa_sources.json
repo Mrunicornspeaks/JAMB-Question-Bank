@@ -1,0 +1,104 @@
+{
+  "checked_at": "2026-11-21",
+  "target_per_subject": 1000,
+  "new_questions_added": 0,
+  "status": "Sources located; no reusable question dataset established. Listed publisher counts are not extracted, deduplicated, or verified counts.",
+  "subjects": [
+    {
+      "subject": "Literature in English",
+      "questions_added": 0,
+      "remaining": 1000,
+      "sources": [
+        {
+          "url": "https://drive.google.com/file/d/11s6YS1JXJwDB-muTaxMSNiFqSW8Ghqmq/view",
+          "discovery_url": "https://campusninja.com.ng/jamb-past-questions-and-answers-pdf/",
+          "publisher": "LASU-INFO",
+          "labelled_years": "2010–2018",
+          "pdf_pages_inspected": 66,
+          "answer_sections_found": true,
+          "question_count": null,
+          "redistribution_status": "No explicit permission found for bulk republication.",
+          "quality_notes": [
+            "Third-party compilation; authenticity and answers not independently verified.",
+            "Literary passages and work titles must be retained with dependent questions.",
+            "Paper-type identification questions should be excluded from learning-question counts."
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Islamic Religious Studies (IRS/IRK)",
+      "questions_added": 0,
+      "remaining": 1000,
+      "sources": [
+        {
+          "url": "https://drive.google.com/file/d/17zN-j9THzpomGMJV6pYHDqViwr5smEXf/view",
+          "discovery_url": "https://www.edupadi.com/blog/download-jamb-past-questions-answers-pdf-free",
+          "publisher": "EduNgr / linked by EduPadi",
+          "labelled_years": "2011 sample",
+          "pdf_pages_inspected": 15,
+          "question_count": null,
+          "terms_url": "https://www.edupadi.com/p/pages/terms",
+          "redistribution_status": "EduPadi terms restrict republication; no separate permission found for this sample.",
+          "quality_notes": [
+            "The first two questions duplicate the same question.",
+            "Some extracted text is malformed; references to verses require checking against page images.",
+            "Commentary appears within some options; answers require review."
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Computer Studies",
+      "questions_added": 0,
+      "remaining": 1000,
+      "sources": [
+        {
+          "url": "https://studentfirst.ng/jamb/computer-studies",
+          "publisher": "StudentFirst",
+          "labelled_years": "2022–2024",
+          "publisher_advertised_question_count": 287,
+          "count_independently_verified": false,
+          "terms_url": "https://studentfirst.ng/terms",
+          "redistribution_status": "Terms prohibit scraping and republication without permission.",
+          "quality_notes": [
+            "Advertised count only; no question data scraped.",
+            "Other archives list earlier years that need independent verification before acceptance as JAMB questions."
+          ]
+        },
+        {
+          "url": "https://myschool.ng/classroom/computer-studies?exam_type=jamb&exam_year=2024",
+          "publisher": "Myschool",
+          "labelled_years": "2024",
+          "redistribution_status": "No bulk republication permission established."
+        }
+      ]
+    },
+    {
+      "subject": "Hausa",
+      "questions_added": 0,
+      "remaining": 1000,
+      "sources": [
+        {
+          "url": "https://smartest.ng/past-questions/hausa/",
+          "publisher": "SmarTest",
+          "labelled_years": "2017–2025",
+          "publisher_advertised_question_count": 386,
+          "count_independently_verified": false,
+          "terms_url": "https://smartest.ng/terms/",
+          "redistribution_status": "Terms explicitly prohibit scraping and rehosting website question data.",
+          "quality_notes": [
+            "Advertised count only; no question data scraped.",
+            "One visible sample contains duplicated option text and malformed labels.",
+            "Preserve Hausa Unicode letters and any underlining or passage context."
+          ]
+        }
+      ]
+    }
+  ],
+  "next_requirement": "A source licence or permission covering question export and redistribution in the bot/public repository, or user-supplied materials authorized for processing.",
+  "excluded_alternative": {
+    "url": "https://github.com/Seunope/aloc-endpoints",
+    "reason": "README describes MIT licensing for software; question-content republication permission was not established."
+  }
+}
