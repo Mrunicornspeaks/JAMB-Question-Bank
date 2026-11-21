@@ -3,10 +3,13 @@
 Target **1,000**; extracted draft **970**; shortfall **30**. All questions have four or five labelled options. Correct answers and explanations are blank pending verification; every record has `approved_for_bot: false`.
 
 - [CSV for spreadsheets](crs_candidates.csv)
-- [JSON for database import](crs_candidates.json)
+- JSON for database import: [Part 1 (485 questions)](crs_candidates_part_01.json), [Part 2 (485 questions)](crs_candidates_part_02.json)
+- [JSON manifest and counts](crs_manifest.json)
 - [Raw source-column contexts](source_contexts.json)
 - [Quality report, duplicate log and formatting repairs](quality_report.json)
 - [Original LarnEDU PDF](https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Christian-Religious-Studies-CRS-Past-Questions-1983-2004-1.pdf)
+
+The CSV contains all 970 records. For JSON import, concatenate the two arrays listed in the manifest. The parts are disjoint and together contain exactly the same records as the CSV.
 
 ## Extraction and duplicate checks
 
