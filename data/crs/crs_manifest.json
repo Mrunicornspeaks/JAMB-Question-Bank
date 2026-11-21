@@ -1,0 +1,20 @@
+{
+  "subject": "Christian Religious Studies",
+  "total_records": 970,
+  "json_parts": [
+    {
+      "file": "crs_candidates_part_01.json",
+      "records": 485,
+      "first_id": "JAMB-CRS-DRAFT-0001",
+      "last_id": "JAMB-CRS-DRAFT-0509"
+    },
+    {
+      "file": "crs_candidates_part_02.json",
+      "records": 485,
+      "first_id": "JAMB-CRS-DRAFT-0510",
+      "last_id": "JAMB-CRS-DRAFT-0995"
+    }
+  ],
+  "complete_csv": "crs_candidates.csv",
+  "approved_for_bot": false
+}
