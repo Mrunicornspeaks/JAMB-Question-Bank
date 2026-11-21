@@ -1,0 +1,256 @@
+{
+  "target": 1000,
+  "extracted_draft_records": 970,
+  "shortfall": 30,
+  "unique_fingerprints": 970,
+  "exact_duplicates_removed_initially": 17,
+  "additional_normalized_duplicates_removed": 8,
+  "reviewed_repeats_removed": 17,
+  "total_duplicates_removed": 42,
+  "removed_duplicates": [
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-CRS-DRAFT-0278"
+    },
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-CRS-DRAFT-0280"
+    },
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-CRS-DRAFT-0283"
+    },
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-CRS-DRAFT-0287"
+    },
+    {
+      "source_page": 22,
+      "duplicate_of": "JAMB-CRS-DRAFT-0288"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0290"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0292"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0293"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0295"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0297"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0299"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0300"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0301"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0302"
+    },
+    {
+      "source_page": 23,
+      "duplicate_of": "JAMB-CRS-DRAFT-0304"
+    },
+    {
+      "source_page": 24,
+      "duplicate_of": "JAMB-CRS-DRAFT-0307"
+    },
+    {
+      "source_page": 24,
+      "duplicate_of": "JAMB-CRS-DRAFT-0309"
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0331",
+      "duplicate_of": "JAMB-CRS-DRAFT-0286",
+      "source_pdf_page": 22,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0332",
+      "duplicate_of": "JAMB-CRS-DRAFT-0289",
+      "source_pdf_page": 23,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0333",
+      "duplicate_of": "JAMB-CRS-DRAFT-0291",
+      "source_pdf_page": 23,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0335",
+      "duplicate_of": "JAMB-CRS-DRAFT-0296",
+      "source_pdf_page": 23,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0336",
+      "duplicate_of": "JAMB-CRS-DRAFT-0298",
+      "source_pdf_page": 23,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0338",
+      "duplicate_of": "JAMB-CRS-DRAFT-0305",
+      "source_pdf_page": 23,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0347",
+      "duplicate_of": "JAMB-CRS-DRAFT-0316",
+      "source_pdf_page": 24,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0350",
+      "duplicate_of": "JAMB-CRS-DRAFT-0319",
+      "source_pdf_page": 24,
+      "reason": "Same normalized stem and options, ignoring case, quotation-mark style, option order and terminal full stops."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0328",
+      "duplicate_of": "JAMB-CRS-DRAFT-0277",
+      "source_pdf_page": 22,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0329",
+      "duplicate_of": "JAMB-CRS-DRAFT-0284",
+      "source_pdf_page": 22,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0330",
+      "duplicate_of": "JAMB-CRS-DRAFT-0285",
+      "source_pdf_page": 22,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0294",
+      "duplicate_of": "JAMB-CRS-DRAFT-0334",
+      "source_pdf_page": 20,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0337",
+      "duplicate_of": "JAMB-CRS-DRAFT-0303",
+      "source_pdf_page": 23,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0306",
+      "duplicate_of": "JAMB-CRS-DRAFT-0339",
+      "source_pdf_page": 20,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0340",
+      "duplicate_of": "JAMB-CRS-DRAFT-0308",
+      "source_pdf_page": 24,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0310",
+      "duplicate_of": "JAMB-CRS-DRAFT-0341",
+      "source_pdf_page": 21,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0311",
+      "duplicate_of": "JAMB-CRS-DRAFT-0342",
+      "source_pdf_page": 21,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0344",
+      "duplicate_of": "JAMB-CRS-DRAFT-0313",
+      "source_pdf_page": 24,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0345",
+      "duplicate_of": "JAMB-CRS-DRAFT-0314",
+      "source_pdf_page": 24,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0315",
+      "duplicate_of": "JAMB-CRS-DRAFT-0346",
+      "source_pdf_page": 21,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0317",
+      "duplicate_of": "JAMB-CRS-DRAFT-0348",
+      "source_pdf_page": 21,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0349",
+      "duplicate_of": "JAMB-CRS-DRAFT-0318",
+      "source_pdf_page": 24,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0352",
+      "duplicate_of": "JAMB-CRS-DRAFT-0321",
+      "source_pdf_page": 24,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0353",
+      "duplicate_of": "JAMB-CRS-DRAFT-0322",
+      "source_pdf_page": 24,
+      "reason": "Repeated question and equivalent options in the duplicated source section; differences are spelling, punctuation or transcription."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0769",
+      "duplicate_of": "JAMB-CRS-DRAFT-0487",
+      "source_pdf_page": 52,
+      "reason": "Identical question about Abraham laughing at the promise of a child, with different distractors; kept one version to avoid repeating the question."
+    }
+  ],
+  "formatting_repairs": [
+    {
+      "id": "JAMB-CRS-DRAFT-0474",
+      "change": "Removed stray leading 0 from question stem; source prints its number as 4.0."
+    },
+    {
+      "id": "JAMB-CRS-DRAFT-0510",
+      "change": "Removed displaced option-label full stop before the text of option B."
+    }
+  ],
+  "similar_stem_pairs_requiring_review": [],
+  "verified_answers": 0,
+  "approved_for_bot": 0,
+  "source_pdf_pages": 67,
+  "source_column_contexts": 132,
+  "shared_context_review_flags": 408,
+  "quotation_review_flags": 358,
+  "diagram_review_flags": 0,
+  "limitations": [
+    "All records require text, biblical reference and answer review.",
+    "The cover says Questions And Answers, but no answer-key section was identified.",
+    "Spelling errors, missing quotation marks and incorrect option associations may remain.",
+    "Source exam authenticity and individual question years are not verified; year is null.",
+    "Context flags are heuristics. Quoted text may already be included in the stem.",
+    "No diagrams are hosted. Passing structural checks does not establish correctness."
+  ]
+}
