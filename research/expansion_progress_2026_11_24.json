@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-24",
+  "request": "Add 1,000 actual past-question records to each of the 10 existing subjects.",
+  "baseline_records": 8138,
+  "requested_additions": 10000,
+  "added_draft_records": 79,
+  "current_total_draft_records": 8217,
+  "remaining_additions": 9921,
+  "completion_status": "partial; insufficient additional reusable source material established",
+  "subjects": [
+    {
+      "subject": "english",
+      "baseline": 1000,
+      "added": 79,
+      "current": 1079,
+      "target": 2000,
+      "remaining": 921
+    },
+    {
+      "subject": "mathematics",
+      "baseline": 737,
+      "added": 0,
+      "current": 737,
+      "target": 1737,
+      "remaining": 1000
+    },
+    {
+      "subject": "biology",
+      "baseline": 923,
+      "added": 0,
+      "current": 923,
+      "target": 1923,
+      "remaining": 1000
+    },
+    {
+      "subject": "physics",
+      "baseline": 842,
+      "added": 0,
+      "current": 842,
+      "target": 1842,
+      "remaining": 1000
+    },
+    {
+      "subject": "chemistry",
+      "baseline": 865,
+      "added": 0,
+      "current": 865,
+      "target": 1865,
+      "remaining": 1000
+    },
+    {
+      "subject": "government",
+      "baseline": 963,
+      "added": 0,
+      "current": 963,
+      "target": 1963,
+      "remaining": 1000
+    },
+    {
+      "subject": "economics",
+      "baseline": 904,
+      "added": 0,
+      "current": 904,
+      "target": 1904,
+      "remaining": 1000
+    },
+    {
+      "subject": "commerce",
+      "baseline": 476,
+      "added": 0,
+      "current": 476,
+      "target": 1476,
+      "remaining": 1000
+    },
+    {
+      "subject": "accounts",
+      "baseline": 458,
+      "added": 0,
+      "current": 458,
+      "target": 1458,
+      "remaining": 1000
+    },
+    {
+      "subject": "crs",
+      "baseline": 970,
+      "added": 0,
+      "current": 970,
+      "target": 1970,
+      "remaining": 1000
+    }
+  ],
+  "new_batch_checks": {
+    "baseline_csv_files_match_github": true,
+    "existing_english_records_preserved": true,
+    "unique_new_ids_and_normalized_question_option_signatures": true,
+    "exact_overlap_with_original_english_bank": 0,
+    "similar_question_option_pairs_above_0_90": 0,
+    "near_duplicate_method": "SequenceMatcher on NFKC casefold normalized stem plus sorted options, comparing length ratios >= 0.9; not proof of semantic uniqueness",
+    "csv_json_record_counts_match": true,
+    "question_page_matching": "Each new record matches at least four of five stem/option prefixes to one unique best PDF page.",
+    "answers_verified": 0,
+    "approved_for_bot": 0
+  },
+  "limitations": [
+    "No new source questions were added for the other nine subjects.",
+    "New English records require passages available in the linked PDF; passage text is not embedded.",
+    "Answers and explanations are null. Transcription and source authenticity remain unverified.",
+    "Publisher permits credited sharing and prohibits direct or indirect monetisation; exam-body rights have not been independently verified."
+  ],
+  "publisher_terms": "https://www.larnedu.com/jamb-past-practice-questions/"
+}
