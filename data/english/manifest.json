@@ -1,0 +1,29 @@
+{
+  "subject": "Use of English",
+  "total_draft_records": 1079,
+  "requested_target": 2000,
+  "remaining_to_target": 921,
+  "json_parts": [
+    {
+      "path": "english_1000.json",
+      "records": 1000
+    },
+    {
+      "path": "english_additional_2026_11_24.json",
+      "records": 79
+    }
+  ],
+  "csv_parts": [
+    {
+      "path": "english_1000.csv",
+      "records": 1000
+    },
+    {
+      "path": "english_additional_2026_11_24.csv",
+      "records": 79
+    }
+  ],
+  "import_instructions": "Choose JSON or CSV, not both. Load both listed parts for that format; deduplicate by id. The original filename retains its historical count.",
+  "new_batch_context": "All additional records need the corresponding passage from their external PDF link and human review before bot delivery.",
+  "verified_new_answers": 0
+}
