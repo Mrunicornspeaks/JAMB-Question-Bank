@@ -1,0 +1,66 @@
+[
+  {
+    "question": "The power dissipated in an a.c. circuit with an r.m.s. current of 5A, r.m.s. voltage of 10 V and a phase angle of 60o is",
+    "options": {
+      "A": "25 W",
+      "B": "50 W",
+      "C": "120 W",
+      "D": "125 W"
+    },
+    "source_pdf_page": 74,
+    "source_column": 1,
+    "source_question_number_as_extracted": 46,
+    "extraction_sort": true,
+    "id": "JAMB-PHYSICS-RECOVERY-20261124-0008",
+    "subject": "Physics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "text-screened extraction draft; subject accuracy and source transcription require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Physics-Past-Questions-1983-2004-By-Larnedu.pdf#page=74",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "2441f160e05d5290a04d7e57774684890509183221ff94b11039362a658582fd",
+    "editorial_changes": [
+      "Source image prints question number as 4.6; read as 46 and remove stray 6 from stem."
+    ],
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "image_url": null,
+    "requires_subject_review": true,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "When a nucleus is formed by bringing protons and neutrons together, the actual mass of the formed nucleus is less than the sum of the masses of the constituent protons and neutrons. The energy equivalent of this mass difference is the",
+    "options": {
+      "A": "Stability",
+      "B": "Lost energy",
+      "C": "Work function",
+      "D": "Binding energy"
+    },
+    "source_pdf_page": 98,
+    "source_column": 1,
+    "source_question_number_as_extracted": 40,
+    "extraction_sort": false,
+    "id": "JAMB-PHYSICS-RECOVERY-20261124-0011",
+    "subject": "Physics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "text-screened extraction draft; subject accuracy and source transcription require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Physics-Past-Questions-1983-2004-By-Larnedu.pdf#page=98",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "8c928babb8f31823575513d9aa32b58365113a7add25e7b335a8f441d9754505",
+    "editorial_changes": [],
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "image_url": null,
+    "requires_subject_review": true,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  }
+]

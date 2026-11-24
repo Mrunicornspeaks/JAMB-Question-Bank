@@ -1,3 +1,16 @@
+# Physics — 844 draft records
+
+Updated 24 November 2026: **2 additional draft records** were recovered from the existing source PDF and screened. The requested expansion of 1,000 per subject remains incomplete; 998 additions remain for this subject.
+
+- [Additional JSON](physics_additional_2026_11_24.json)
+- [Additional CSV](physics_additional_2026_11_24.csv)
+- [Complete repository import manifest](../manifest.json)
+- [Current expansion report](../../research/expansion_progress_2026_11_24.json)
+
+Load the original batch plus this additional batch, using one format only. Answers are blank and all new records have approved_for_bot set to false. The original quality report describes the original batch; the current expansion report covers the additions. Existing records have been preserved.
+
+## Original batch documentation
+
 # Physics — 842 draft question records
 
 Target: **1,000**. Current extraction: **842**, a shortfall of **158**. These are extraction candidates, not validated teaching material. Correct answers and explanations remain blank. **approved_for_bot is false on every record.**

@@ -3,109 +3,592 @@
   "request": "Add 1,000 actual past-question records to each of the 10 existing subjects.",
   "baseline_records": 8138,
   "requested_additions": 10000,
-  "added_draft_records": 79,
-  "current_total_draft_records": 8217,
-  "remaining_additions": 9921,
-  "completion_status": "partial; insufficient additional reusable source material established",
+  "previous_additions": 79,
+  "added_this_batch": 97,
+  "cumulative_additions": 176,
+  "current_total_draft_records": 8314,
+  "remaining_additions": 9824,
+  "completion_status": "Partial. More reusable source material is needed; the 1,000-per-subject expansion is not complete.",
   "subjects": [
-    {
-      "subject": "english",
-      "baseline": 1000,
-      "added": 79,
-      "current": 1079,
-      "target": 2000,
-      "remaining": 921
-    },
     {
       "subject": "mathematics",
       "baseline": 737,
-      "added": 0,
-      "current": 737,
+      "added_this_batch": 15,
+      "current": 752,
+      "cumulative_additions": 15,
       "target": 1737,
-      "remaining": 1000
+      "remaining": 985
     },
     {
       "subject": "biology",
       "baseline": 923,
-      "added": 0,
-      "current": 923,
+      "added_this_batch": 26,
+      "current": 949,
+      "cumulative_additions": 26,
       "target": 1923,
-      "remaining": 1000
+      "remaining": 974
     },
     {
       "subject": "physics",
       "baseline": 842,
-      "added": 0,
-      "current": 842,
+      "added_this_batch": 2,
+      "current": 844,
+      "cumulative_additions": 2,
       "target": 1842,
-      "remaining": 1000
+      "remaining": 998
     },
     {
       "subject": "chemistry",
       "baseline": 865,
-      "added": 0,
-      "current": 865,
+      "added_this_batch": 5,
+      "current": 870,
+      "cumulative_additions": 5,
       "target": 1865,
-      "remaining": 1000
+      "remaining": 995
     },
     {
       "subject": "government",
       "baseline": 963,
-      "added": 0,
-      "current": 963,
+      "added_this_batch": 27,
+      "current": 990,
+      "cumulative_additions": 27,
       "target": 1963,
-      "remaining": 1000
+      "remaining": 973
     },
     {
       "subject": "economics",
       "baseline": 904,
-      "added": 0,
-      "current": 904,
+      "added_this_batch": 19,
+      "current": 923,
+      "cumulative_additions": 19,
       "target": 1904,
-      "remaining": 1000
+      "remaining": 981
     },
     {
       "subject": "commerce",
       "baseline": 476,
-      "added": 0,
+      "added_this_batch": 0,
       "current": 476,
+      "cumulative_additions": 0,
       "target": 1476,
       "remaining": 1000
     },
     {
       "subject": "accounts",
       "baseline": 458,
-      "added": 0,
-      "current": 458,
+      "added_this_batch": 2,
+      "current": 460,
+      "cumulative_additions": 2,
       "target": 1458,
-      "remaining": 1000
+      "remaining": 998
     },
     {
       "subject": "crs",
       "baseline": 970,
-      "added": 0,
-      "current": 970,
+      "added_this_batch": 1,
+      "current": 971,
+      "cumulative_additions": 1,
       "target": 1970,
-      "remaining": 1000
+      "remaining": 999
+    },
+    {
+      "subject": "english",
+      "baseline": 1000,
+      "previous_additions": 79,
+      "added_this_batch": 0,
+      "current": 1079,
+      "cumulative_additions": 79,
+      "target": 2000,
+      "remaining": 921
     }
   ],
-  "new_batch_checks": {
-    "baseline_csv_files_match_github": true,
-    "existing_english_records_preserved": true,
-    "unique_new_ids_and_normalized_question_option_signatures": true,
-    "exact_overlap_with_original_english_bank": 0,
-    "similar_question_option_pairs_above_0_90": 0,
-    "near_duplicate_method": "SequenceMatcher on NFKC casefold normalized stem plus sorted options, comparing length ratios >= 0.9; not proof of semantic uniqueness",
-    "csv_json_record_counts_match": true,
-    "question_page_matching": "Each new record matches at least four of five stem/option prefixes to one unique best PDF page.",
-    "answers_verified": 0,
-    "approved_for_bot": 0
-  },
-  "limitations": [
-    "No new source questions were added for the other nine subjects.",
-    "New English records require passages available in the linked PDF; passage text is not embedded.",
-    "Answers and explanations are null. Transcription and source authenticity remain unverified.",
-    "Publisher permits credited sharing and prohibits direct or indirect monetisation; exam-body rights have not been independently verified."
+  "source": "Existing LarnEDU subject PDFs; additional records recovered with revised extraction, then screened.",
+  "publisher_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+  "checks": [
+    "Existing records preserved in their original files.",
+    "New IDs and normalized stem/option signatures are unique.",
+    "Compared candidates against existing subject records using exact signatures, stem comparisons, option sets and fuzzy text similarity.",
+    "Excluded Commerce candidate because it is already included with its income-statement context.",
+    "CSV and JSON counts match; every new record has four or five nonempty options and a PDF page reference."
   ],
-  "publisher_terms": "https://www.larnedu.com/jamb-past-practice-questions/"
+  "limitations": [
+    "No new independently licensed JAMB dataset was established in the renewed source search.",
+    "New records are extraction drafts, not authenticated original JAMB papers.",
+    "All new answers and explanations are null; all new records have approved_for_bot false.",
+    "Text screening and duplicate checks do not prove semantic uniqueness or subject accuracy.",
+    "Most records still need visual/source review. Small repairs to Accounts, Physics and CRS were checked against PDF images and logged per record.",
+    "Publisher permits credited sharing but prohibits direct or indirect monetisation; exam-body rights remain unverified."
+  ],
+  "new_source_checks": [
+    {
+      "url": "https://github.com/UniterInovar/WAEC-NECO-JAMB-IGCSE-past-questions",
+      "finding": "Code repository; no bundled question database or reuse licence located."
+    },
+    {
+      "url": "https://github.com/Samkarya/online-exam-questions",
+      "finding": "Noncommercial data reuse licence found, but the inspected repository has no JAMB question collection."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0001",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0002",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0004",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0005",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0008",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0009",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0010",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0011",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0012",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0013",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0015",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0016",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0017",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0019",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0020",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0021",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0022",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0023",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0024",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0025",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0026",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0028",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0029",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0030",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0032",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0033",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0035",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0036",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0037",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0038",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0041",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0042",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0043",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0044",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0045",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0046",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0047",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0048",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0049",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0050",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0051",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0052",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0053",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0054",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0055",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0056",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0057",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0058",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0059",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0060",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0063",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0064",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0065",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-MATHEMATICS-RECOVERY-20261124-0066",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0006",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0009",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0019",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0021",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0022",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0023",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0026",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0033",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0034",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-BIOLOGY-RECOVERY-20261124-0035",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0001",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0002",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0003",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0004",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0005",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0006",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0007",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0009",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0010",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0012",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-PHYSICS-RECOVERY-20261124-0013",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0001",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0002",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0003",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0004",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0005",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0006",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0007",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0008",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0009",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0010",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0011",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0012",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0014",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0015",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0016",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0017",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0018",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0019",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0021",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0022",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0024",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0025",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0026",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0027",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0029",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0031",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0032",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0002",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0003",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0006",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0007",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0008",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0009",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0010",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0015",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0016",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0028",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0030",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-ECONOMICS-RECOVERY-20261124-0031",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    },
+    {
+      "id": "JAMB-COMMERCE-RECOVERY-20261124-0001",
+      "reason": "Excluded after text screening: incomplete/ambiguous content, context dependence, or duplicate."
+    }
+  ]
 }

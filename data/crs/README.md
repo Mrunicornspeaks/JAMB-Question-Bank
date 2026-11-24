@@ -1,3 +1,16 @@
+# Christian Religious Studies — 971 draft records
+
+Updated 24 November 2026: **1 additional draft records** were recovered from the existing source PDF and screened. The requested expansion of 1,000 per subject remains incomplete; 999 additions remain for this subject.
+
+- [Additional JSON](crs_additional_2026_11_24.json)
+- [Additional CSV](crs_additional_2026_11_24.csv)
+- [Complete repository import manifest](../manifest.json)
+- [Current expansion report](../../research/expansion_progress_2026_11_24.json)
+
+Load the original batch plus this additional batch, using one format only. Answers are blank and all new records have approved_for_bot set to false. The original quality report describes the original batch; the current expansion report covers the additions. Existing records have been preserved.
+
+## Original batch documentation
+
 # Christian Religious Studies (CRS / CRK) — 970 draft questions
 
 Target **1,000**; extracted draft **970**; shortfall **30**. All questions have four or five labelled options. Correct answers and explanations are blank pending verification; every record has `approved_for_bot: false`.

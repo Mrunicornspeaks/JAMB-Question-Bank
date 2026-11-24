@@ -1,0 +1,255 @@
+{
+  "updated": "2026-11-24",
+  "total_draft_records": 8314,
+  "requested_final_total": 18138,
+  "remaining_additions": 9824,
+  "instructions": "Paths are relative to data/. Choose JSON or CSV, load every part for each subject and deduplicate by id. Records require review before use in a bot. Dataset reuse restrictions apply.",
+  "subjects": [
+    {
+      "subject": "Mathematics",
+      "slug": "mathematics",
+      "total_draft_records": 752,
+      "json_parts": [
+        {
+          "path": "mathematics/mathematics_candidates.json",
+          "records": 737
+        },
+        {
+          "path": "mathematics/mathematics_additional_2026_11_24.json",
+          "records": 15
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "mathematics/mathematics_candidates.csv",
+          "records": 737
+        },
+        {
+          "path": "mathematics/mathematics_additional_2026_11_24.csv",
+          "records": 15
+        }
+      ]
+    },
+    {
+      "subject": "Biology",
+      "slug": "biology",
+      "total_draft_records": 949,
+      "json_parts": [
+        {
+          "path": "biology/biology_candidates.json",
+          "records": 923
+        },
+        {
+          "path": "biology/biology_additional_2026_11_24.json",
+          "records": 26
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "biology/biology_candidates.csv",
+          "records": 923
+        },
+        {
+          "path": "biology/biology_additional_2026_11_24.csv",
+          "records": 26
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "slug": "physics",
+      "total_draft_records": 844,
+      "json_parts": [
+        {
+          "path": "physics/physics_candidates.json",
+          "records": 842
+        },
+        {
+          "path": "physics/physics_additional_2026_11_24.json",
+          "records": 2
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "physics/physics_candidates.csv",
+          "records": 842
+        },
+        {
+          "path": "physics/physics_additional_2026_11_24.csv",
+          "records": 2
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "slug": "chemistry",
+      "total_draft_records": 870,
+      "json_parts": [
+        {
+          "path": "chemistry/chemistry_candidates.json",
+          "records": 865
+        },
+        {
+          "path": "chemistry/chemistry_additional_2026_11_24.json",
+          "records": 5
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "chemistry/chemistry_candidates.csv",
+          "records": 865
+        },
+        {
+          "path": "chemistry/chemistry_additional_2026_11_24.csv",
+          "records": 5
+        }
+      ]
+    },
+    {
+      "subject": "Government",
+      "slug": "government",
+      "total_draft_records": 990,
+      "json_parts": [
+        {
+          "path": "government/government_candidates.json",
+          "records": 963
+        },
+        {
+          "path": "government/government_additional_2026_11_24.json",
+          "records": 27
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "government/government_candidates.csv",
+          "records": 963
+        },
+        {
+          "path": "government/government_additional_2026_11_24.csv",
+          "records": 27
+        }
+      ]
+    },
+    {
+      "subject": "Economics",
+      "slug": "economics",
+      "total_draft_records": 923,
+      "json_parts": [
+        {
+          "path": "economics/economics_candidates.json",
+          "records": 904
+        },
+        {
+          "path": "economics/economics_additional_2026_11_24.json",
+          "records": 19
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "economics/economics_candidates.csv",
+          "records": 904
+        },
+        {
+          "path": "economics/economics_additional_2026_11_24.csv",
+          "records": 19
+        }
+      ]
+    },
+    {
+      "subject": "Commerce",
+      "slug": "commerce",
+      "total_draft_records": 476,
+      "json_parts": [
+        {
+          "path": "commerce/commerce_candidates.json",
+          "records": 476
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "commerce/commerce_candidates.csv",
+          "records": 476
+        }
+      ]
+    },
+    {
+      "subject": "Principles of Accounts",
+      "slug": "accounts",
+      "total_draft_records": 460,
+      "json_parts": [
+        {
+          "path": "accounts/accounts_candidates.json",
+          "records": 458
+        },
+        {
+          "path": "accounts/accounts_additional_2026_11_24.json",
+          "records": 2
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "accounts/accounts_candidates.csv",
+          "records": 458
+        },
+        {
+          "path": "accounts/accounts_additional_2026_11_24.csv",
+          "records": 2
+        }
+      ]
+    },
+    {
+      "subject": "Christian Religious Studies",
+      "slug": "crs",
+      "total_draft_records": 971,
+      "json_parts": [
+        {
+          "path": "crs/crs_candidates_part_01.json",
+          "records": 485
+        },
+        {
+          "path": "crs/crs_candidates_part_02.json",
+          "records": 485
+        },
+        {
+          "path": "crs/crs_additional_2026_11_24.json",
+          "records": 1
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "crs/crs_candidates.csv",
+          "records": 970
+        },
+        {
+          "path": "crs/crs_additional_2026_11_24.csv",
+          "records": 1
+        }
+      ]
+    },
+    {
+      "subject": "Use of English",
+      "slug": "english",
+      "total_draft_records": 1079,
+      "json_parts": [
+        {
+          "path": "english/english_1000.json",
+          "records": 1000
+        },
+        {
+          "path": "english/english_additional_2026_11_24.json",
+          "records": 79
+        }
+      ],
+      "csv_parts": [
+        {
+          "path": "english/english_1000.csv",
+          "records": 1000
+        },
+        {
+          "path": "english/english_additional_2026_11_24.csv",
+          "records": 79
+        }
+      ]
+    }
+  ]
+}

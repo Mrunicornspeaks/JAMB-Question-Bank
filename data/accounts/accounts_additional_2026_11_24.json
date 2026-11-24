@@ -1,0 +1,66 @@
+[
+  {
+    "question": "Control accounts help to verify the arithmetic accuracy of the postings from the",
+    "options": {
+      "A": "Subsidiary books into the trial balance",
+      "B": "Ledgers into the trial balance",
+      "C": "Journals into the ledgers",
+      "D": "Subsidiary books into the ledgers."
+    },
+    "source_pdf_page": 34,
+    "source_column": 0,
+    "source_question_number_as_extracted": 43,
+    "extraction_sort": true,
+    "id": "JAMB-ACCOUNTS-RECOVERY-20261124-0001",
+    "subject": "Principles of Accounts",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "text-screened extraction draft; subject accuracy and source transcription require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/Jamb-Principles-Of-Accounts-Past-Questions-1983-2004-BY-LarnEdu.pdf#page=34",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "63f386c7c74a19c62102109041faf62bef4aab0d7d4250563958c4e8c84cf059",
+    "editorial_changes": [
+      "Source image prints question number as 4.3; read as 43 and remove stray 3 from stem."
+    ],
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "image_url": null,
+    "requires_subject_review": true,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "Given an incomplete record without sufficient information to determine profit, the necessary thing to do it to",
+    "options": {
+      "A": "Draw up the statement of affairs.",
+      "B": "Draw up a T-account to establish the amount.",
+      "C": "Compare the journal entries with the cash book .",
+      "D": "Cross-check the cash book for further information."
+    },
+    "source_pdf_page": 34,
+    "source_column": 0,
+    "source_question_number_as_extracted": 42,
+    "extraction_sort": true,
+    "id": "JAMB-ACCOUNTS-RECOVERY-20261124-0002",
+    "subject": "Principles of Accounts",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "text-screened extraction draft; subject accuracy and source transcription require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/Jamb-Principles-Of-Accounts-Past-Questions-1983-2004-BY-LarnEdu.pdf#page=34",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "5a4d576c2a0e611c75615ed4a02e0f3a415a97c3f068d8cff654d43487cab542",
+    "editorial_changes": [],
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "image_url": null,
+    "requires_subject_review": true,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  }
+]

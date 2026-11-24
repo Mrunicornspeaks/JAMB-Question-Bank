@@ -1,6 +1,6 @@
 {
   "subject": "Christian Religious Studies",
-  "total_records": 970,
+  "total_records": 971,
   "json_parts": [
     {
       "file": "crs_candidates_part_01.json",
@@ -13,8 +13,21 @@
       "records": 485,
       "first_id": "JAMB-CRS-DRAFT-0510",
       "last_id": "JAMB-CRS-DRAFT-0995"
+    },
+    {
+      "file": "crs_additional_2026_11_24.json",
+      "records": 1
     }
   ],
-  "complete_csv": "crs_candidates.csv",
-  "approved_for_bot": false
+  "approved_for_bot": false,
+  "csv_parts": [
+    {
+      "file": "crs_candidates.csv",
+      "records": 970
+    },
+    {
+      "file": "crs_additional_2026_11_24.csv",
+      "records": 1
+    }
+  ]
 }

@@ -1,0 +1,35 @@
+[
+  {
+    "question": "The epileptic boy could not be healed by the disciples because",
+    "options": {
+      "A": "they had not ye received power",
+      "B": "the disease was incurable",
+      "C": "their prayers were not intensive enough",
+      "D": "they had to wait for Jesus"
+    },
+    "source_pdf_page": 36,
+    "source_column": 0,
+    "source_question_number_as_extracted": 29,
+    "extraction_sort": true,
+    "id": "JAMB-CRS-RECOVERY-20261124-0001",
+    "subject": "Christian Religious Studies",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "text-screened extraction draft; subject accuracy and source transcription require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Christian-Religious-Studies-CRS-Past-Questions-1983-2004-1.pdf#page=36",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "5d18c7e2e21102bc7e30428c2846ef7ae82592886df055f7821016c66435706a",
+    "editorial_changes": [
+      "Removed the following questions’ instruction from option D after checking the PDF image."
+    ],
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "image_url": null,
+    "requires_subject_review": true,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  }
+]
