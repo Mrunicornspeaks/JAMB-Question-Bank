@@ -1,13 +1,13 @@
-# Biology — 949 draft records
+# Biology — 955 draft records
 
-Updated 24 November 2026: **26 additional draft records** were recovered from the existing source PDF and screened. The requested expansion of 1,000 per subject remains incomplete; 974 additions remain for this subject.
+Updated 24 November 2026: **32 additional draft records** across two supplemental batches. The latest batch adds **6 questions**, manually checked against source PDF page images. 968 additions remain toward the requested 1,000 additional questions for this subject.
 
-- [Additional JSON](biology_additional_2026_11_24.json)
-- [Additional CSV](biology_additional_2026_11_24.csv)
+- [First additional JSON](biology_additional_2026_11_24.json) · [CSV](biology_additional_2026_11_24.csv)
+- [Latest manual recovery JSON](biology_manual_2026_11_24.json) · [CSV](biology_manual_2026_11_24.csv)
 - [Complete repository import manifest](../manifest.json)
 - [Current expansion report](../../research/expansion_progress_2026_11_24.json)
 
-Load the original batch plus this additional batch, using one format only. Answers are blank and all new records have approved_for_bot set to false. The original quality report describes the original batch; the current expansion report covers the additions. Existing records have been preserved.
+Load the original batch and both supplemental batches, using one format only. New records include source-page links and editorial notes. Source spelling and grammar errors may be retained and flagged; subject review is still required. Answers and explanations remain blank, and approved_for_bot is false. Original question files are preserved.
 
 ## Original batch documentation
 

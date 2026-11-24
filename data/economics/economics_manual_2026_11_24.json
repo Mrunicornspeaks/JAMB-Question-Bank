@@ -1,0 +1,173 @@
+[
+  {
+    "question": "Public expenditure on services, such as education and health, is known as expenditure on",
+    "options": {
+      "A": "General services",
+      "B": "Community services",
+      "C": "Social services",
+      "D": "Economic services",
+      "E": "Administrative services"
+    },
+    "source_pdf_page": 8,
+    "source_column": 1,
+    "source_question_number_as_extracted": 38,
+    "extraction_sort": true,
+    "id": "JAMB-ECONOMICS-RECOVERY-20261124-0002",
+    "subject": "Economics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Economics-Past-Questions-1983-2004.pdf#page=8",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "6cbc78e467e204225fe06bcae647f1e63c7d6a91b782c3bfa702e1e2164a1b57",
+    "editorial_changes": [
+      "Removed the following table and its instruction from the final option."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "An account from which allocations are made to the three tiers of government in Nigeria is called the",
+    "options": {
+      "A": "National Income Account",
+      "B": "Public Sector Account",
+      "C": "Federation Account",
+      "D": "National Revenue Mobilization Account"
+    },
+    "source_pdf_page": 38,
+    "source_column": 0,
+    "source_question_number_as_extracted": 40,
+    "extraction_sort": true,
+    "id": "JAMB-ECONOMICS-RECOVERY-20261124-0010",
+    "subject": "Economics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Economics-Past-Questions-1983-2004.pdf#page=38",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "7982ad353a0823e6516a45d82f861f820dfe172b1de60f3d384ee7cddd8b117a",
+    "editorial_changes": [
+      "Recovered the complete stem and separated the following table instruction from option D."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "A major obstacle to rapid agricultural development in Nigeria is the",
+    "options": {
+      "A": "ineffective use of crude implements",
+      "B": "inability of farmers to adopt modern technology",
+      "C": "introduction of the Green Revolution programme",
+      "D": "declining population growth rate"
+    },
+    "source_pdf_page": 59,
+    "source_column": 0,
+    "source_question_number_as_extracted": 22,
+    "extraction_sort": true,
+    "id": "JAMB-ECONOMICS-RECOVERY-20261124-0015",
+    "subject": "Economics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Economics-Past-Questions-1983-2004.pdf#page=59",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "93bc060a69ee5b3e0f8a9a79082c7d6cd2ba5b21753f4b780d85ca5cabeefa34",
+    "editorial_changes": [
+      "Recovered complete wording and option boundaries from page image."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "The major problems of cooperative Societies in Nigeria is that.",
+    "options": {
+      "A": "they often lack cohesion and continuity",
+      "B": "their liability is unlimited to members",
+      "C": "voting is by proxy",
+      "D": "their management style is poor"
+    },
+    "source_pdf_page": 59,
+    "source_column": 0,
+    "source_question_number_as_extracted": 24,
+    "extraction_sort": true,
+    "id": "JAMB-ECONOMICS-RECOVERY-20261124-0016",
+    "subject": "Economics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Economics-Past-Questions-1983-2004.pdf#page=59",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "ea01813b0a8e2c2ba10a6d15072ce60455ead1082262d54739c0777f2d411231",
+    "editorial_changes": [
+      "Recovered complete options and removed stray punctuation/merged labels. Source stem grammar retained."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "An advantage of the soleproprietorship over the partnership form of business organization is that",
+    "options": {
+      "A": "it enjoys limited liability for debt in the event of failure",
+      "B": "Its existence is limited by an individual’s life span",
+      "C": "It relies on the decision of friends to succeed",
+      "D": "The possibility of conflict is management in virtually non-existent"
+    },
+    "source_pdf_page": 73,
+    "source_column": 1,
+    "source_question_number_as_extracted": 32,
+    "extraction_sort": true,
+    "id": "JAMB-ECONOMICS-RECOVERY-20261124-0028",
+    "subject": "Economics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Economics-Past-Questions-1983-2004.pdf#page=73",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "e261364561273076114fd42b8e1396f36f40d87bd09b948c8b14d4ea4c0590f2",
+    "editorial_changes": [
+      "Recovered the option boundaries from page image. Apparent source wording errors in option D are retained and require review."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  }
+]

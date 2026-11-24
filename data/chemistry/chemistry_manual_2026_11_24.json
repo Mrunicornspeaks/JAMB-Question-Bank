@@ -1,0 +1,70 @@
+[
+  {
+    "question": "A sample of a substance containing only C and H burns in excess O₂ to yield 4.4 g of CO₂ and 2.7 g of H₂O. The empirical formular of the substance is. (C = 12, O = 16, H = 1)",
+    "options": {
+      "A": "CH₃",
+      "B": "CH₂",
+      "C": "CH₄",
+      "D": "C₂H₅"
+    },
+    "source_pdf_page": 54,
+    "source_column": 1,
+    "source_question_number_as_extracted": 39,
+    "extraction_sort": false,
+    "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0024",
+    "subject": "Chemistry",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Chemistry-Past-Questions-1983-2004.pdf#page=54",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "49328efaf70036166754199e54d1481c4163c4c42468316e672d61d6c506307c",
+    "editorial_changes": [
+      "Restored chemical subscripts and moved atomic masses from option D to the stem. Source spelling formular retained."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "When cathode rays are deflected onto the electrode of an electrometer, the instrument becomes",
+    "options": {
+      "A": "negatively charged",
+      "B": "positively charged",
+      "C": "neutral",
+      "D": "bipolar"
+    },
+    "source_pdf_page": 72,
+    "source_column": 0,
+    "source_question_number_as_extracted": 11,
+    "extraction_sort": true,
+    "id": "JAMB-CHEMISTRY-RECOVERY-20261124-0029",
+    "subject": "Chemistry",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Chemistry-Past-Questions-1983-2004.pdf#page=72",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "b8bcf410c30315b1f45e695944562263ad403f700a1c82ee4bb9a56b49e3a524",
+    "editorial_changes": [
+      "Removed unrelated next-question text from option D after checking page image."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  }
+]

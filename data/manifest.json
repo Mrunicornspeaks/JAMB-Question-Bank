@@ -1,14 +1,14 @@
 {
   "updated": "2026-11-24",
-  "total_draft_records": 8314,
+  "total_draft_records": 8339,
   "requested_final_total": 18138,
-  "remaining_additions": 9824,
+  "remaining_additions": 9799,
   "instructions": "Paths are relative to data/. Choose JSON or CSV, load every part for each subject and deduplicate by id. Records require review before use in a bot. Dataset reuse restrictions apply.",
   "subjects": [
     {
       "subject": "Mathematics",
       "slug": "mathematics",
-      "total_draft_records": 752,
+      "total_draft_records": 761,
       "json_parts": [
         {
           "path": "mathematics/mathematics_candidates.json",
@@ -17,6 +17,10 @@
         {
           "path": "mathematics/mathematics_additional_2026_11_24.json",
           "records": 15
+        },
+        {
+          "path": "mathematics/mathematics_manual_2026_11_24.json",
+          "records": 9
         }
       ],
       "csv_parts": [
@@ -27,13 +31,17 @@
         {
           "path": "mathematics/mathematics_additional_2026_11_24.csv",
           "records": 15
+        },
+        {
+          "path": "mathematics/mathematics_manual_2026_11_24.csv",
+          "records": 9
         }
       ]
     },
     {
       "subject": "Biology",
       "slug": "biology",
-      "total_draft_records": 949,
+      "total_draft_records": 955,
       "json_parts": [
         {
           "path": "biology/biology_candidates.json",
@@ -42,6 +50,10 @@
         {
           "path": "biology/biology_additional_2026_11_24.json",
           "records": 26
+        },
+        {
+          "path": "biology/biology_manual_2026_11_24.json",
+          "records": 6
         }
       ],
       "csv_parts": [
@@ -52,13 +64,17 @@
         {
           "path": "biology/biology_additional_2026_11_24.csv",
           "records": 26
+        },
+        {
+          "path": "biology/biology_manual_2026_11_24.csv",
+          "records": 6
         }
       ]
     },
     {
       "subject": "Physics",
       "slug": "physics",
-      "total_draft_records": 844,
+      "total_draft_records": 847,
       "json_parts": [
         {
           "path": "physics/physics_candidates.json",
@@ -67,6 +83,10 @@
         {
           "path": "physics/physics_additional_2026_11_24.json",
           "records": 2
+        },
+        {
+          "path": "physics/physics_manual_2026_11_24.json",
+          "records": 3
         }
       ],
       "csv_parts": [
@@ -77,13 +97,17 @@
         {
           "path": "physics/physics_additional_2026_11_24.csv",
           "records": 2
+        },
+        {
+          "path": "physics/physics_manual_2026_11_24.csv",
+          "records": 3
         }
       ]
     },
     {
       "subject": "Chemistry",
       "slug": "chemistry",
-      "total_draft_records": 870,
+      "total_draft_records": 872,
       "json_parts": [
         {
           "path": "chemistry/chemistry_candidates.json",
@@ -92,6 +116,10 @@
         {
           "path": "chemistry/chemistry_additional_2026_11_24.json",
           "records": 5
+        },
+        {
+          "path": "chemistry/chemistry_manual_2026_11_24.json",
+          "records": 2
         }
       ],
       "csv_parts": [
@@ -102,6 +130,10 @@
         {
           "path": "chemistry/chemistry_additional_2026_11_24.csv",
           "records": 5
+        },
+        {
+          "path": "chemistry/chemistry_manual_2026_11_24.csv",
+          "records": 2
         }
       ]
     },
@@ -133,7 +165,7 @@
     {
       "subject": "Economics",
       "slug": "economics",
-      "total_draft_records": 923,
+      "total_draft_records": 928,
       "json_parts": [
         {
           "path": "economics/economics_candidates.json",
@@ -142,6 +174,10 @@
         {
           "path": "economics/economics_additional_2026_11_24.json",
           "records": 19
+        },
+        {
+          "path": "economics/economics_manual_2026_11_24.json",
+          "records": 5
         }
       ],
       "csv_parts": [
@@ -152,6 +188,10 @@
         {
           "path": "economics/economics_additional_2026_11_24.csv",
           "records": 19
+        },
+        {
+          "path": "economics/economics_manual_2026_11_24.csv",
+          "records": 5
         }
       ]
     },

@@ -1,0 +1,104 @@
+[
+  {
+    "question": "A 20-toothed gear wheel drives a 60-toothed one, if the angular speed of the smaller wheel is 120 rev s⁻¹, the angular speed of the wheel is",
+    "options": {
+      "A": "3 rev s⁻¹",
+      "B": "40 rev s⁻¹",
+      "C": "360 rev s⁻¹",
+      "D": "2 400 rev s⁻¹"
+    },
+    "source_pdf_page": 30,
+    "source_column": 1,
+    "source_question_number_as_extracted": 8,
+    "extraction_sort": true,
+    "id": "JAMB-PHYSICS-RECOVERY-20261124-0003",
+    "subject": "Physics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Physics-Past-Questions-1983-2004-By-Larnedu.pdf#page=30",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "f20d51f5ad12012e2c2fe329fd65ef5460de2693617f5a6db27e934f84b91839",
+    "editorial_changes": [
+      "Removed stray extraction text and restored unit exponents. Source wording the wheel retained."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "A circuit has an area of 0.4 m² and consists of 50 loops of wire. If the loops are twisted and allowed to rotate at a constant angular velocity of 10 rad s⁻¹ in a uniform magnetic field of 0.4 T, the amplitude of the induced voltage is",
+    "options": {
+      "A": "80 V",
+      "B": "20 V",
+      "C": "8 V",
+      "D": "16 V"
+    },
+    "source_pdf_page": 99,
+    "source_column": 0,
+    "source_question_number_as_extracted": 43,
+    "extraction_sort": true,
+    "id": "JAMB-PHYSICS-RECOVERY-20261124-0012",
+    "subject": "Physics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Physics-Past-Questions-1983-2004-By-Larnedu.pdf#page=99",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "c5bc5e243007befa1bab3ead0dcbfd538d10ee224522bbbc54b81395153a1190",
+    "editorial_changes": [
+      "Removed intrusive header text, rejoined stem across the heading, and normalized unit typography from page image."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  },
+  {
+    "question": "The change in volume when 450 kg of ice is completely melted is. [Density of ice = 900 kg m⁻³; density of water = 1 000 kg m⁻³]",
+    "options": {
+      "A": "0.05 m³",
+      "B": "0.45 m³",
+      "C": "4.50 m³",
+      "D": "0.50 m³"
+    },
+    "source_pdf_page": 101,
+    "source_column": 1,
+    "source_question_number_as_extracted": 34,
+    "extraction_sort": true,
+    "id": "JAMB-PHYSICS-RECOVERY-20261124-0013",
+    "subject": "Physics",
+    "exam": "JAMB/UTME",
+    "year": null,
+    "correct_answer": null,
+    "explanation": null,
+    "approved_for_bot": false,
+    "review_status": "Visually transcribed from source PDF; subject accuracy and source errors require review",
+    "source_name": "LarnEDU",
+    "source_url": "https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Physics-Past-Questions-1983-2004-By-Larnedu.pdf#page=101",
+    "source_terms": "https://www.larnedu.com/jamb-past-practice-questions/",
+    "fingerprint": "3d78686241f451ce71c2d4ad8244ba9c97f36e214cd990f885a69db5e01bcc0f",
+    "editorial_changes": [
+      "Restored exponents and moved density information from option D into the stem."
+    ],
+    "source_visual_review": true,
+    "answer_status": "No source answer key imported; correct answer and explanation are null.",
+    "requires_subject_review": true,
+    "image_url": null,
+    "reuse_note": "Credit LarnEDU. Publisher permits credited sharing and prohibits direct or indirect monetisation. Exam-body rights not independently verified.",
+    "fingerprint_method": "NFKC casefold alphanumeric stem plus sorted options"
+  }
+]
