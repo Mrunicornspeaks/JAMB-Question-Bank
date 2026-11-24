@@ -1,30 +1,49 @@
-# JAMB Use of English — 1,000 draft questions
+# JAMB question bank — 8,217 draft records
 
-This collection contains 1,000 question-and-option records: the original 500 plus 245 additional stand-alone questions and 255 comprehension questions linked to 55 passages.
+Extracted past-question candidates for 10 subjects. These are unverified drafts, not a validated teaching-bot database.
 
-## Download
+## Expansion requested on 24 November 2026
 
-Open **Code → Download ZIP** to download the complete repository. For an individual file, open it and select **Download raw file**.
+The request is **1,000 additional questions per existing subject**, or 10,000 additions. **79 English draft records were added; 9,921 additions remain.** No additions were made to the other nine subjects in this batch.
 
-- `data/english/english_1000.csv` — spreadsheet format, including passage text.
-- `data/english/english_1000.json` — structured question records, including passage text.
-- `data/english/english_passages.json` — shared passages and question links.
-- `data/english/expansion_report.json` — automated checks and record counts.
-- `data/english/NOTES.md` — collection details.
+| Subject | Current drafts | Added this batch | Requested final total |
+| --- | ---: | ---: | ---: |
+| [Use of English](data/english/) | 1079 | 79 | 2000 |
+| [Mathematics](data/mathematics/) | 737 | 0 | 1737 |
+| [Biology](data/biology/) | 923 | 0 | 1923 |
+| [Physics](data/physics/) | 842 | 0 | 1842 |
+| [Chemistry](data/chemistry/) | 865 | 0 | 1865 |
+| [Government](data/government/) | 963 | 0 | 1963 |
+| [Economics](data/economics/) | 904 | 0 | 1904 |
+| [Commerce](data/commerce/) | 476 | 0 | 1476 |
+| [Principles of Accounts](data/accounts/) | 458 | 0 | 1458 |
+| [Christian Religious Studies](data/crs/) | 970 | 0 | 1970 |
+| **Total** | **8,217** | **79** | **18,138** |
+
+[Expansion progress and checks](research/expansion_progress_2026_11_24.json)
+
+## Download and import
+
+Use **Code → Download ZIP** for the repository, or open a CSV/JSON file and select **Download raw file**.
+
+- English: load both parts listed in [the English manifest](data/english/manifest.json). The original english_1000 files retain their original 1,000 records; the additional batch contains 79.
+- [Additional English CSV](data/english/english_additional_2026_11_24.csv)
+- [Additional English JSON](data/english/english_additional_2026_11_24.json)
+- Other subjects: follow each subject folder's README. CRS has split JSON files and a manifest.
+- Choose either CSV or JSON when importing; do not import both representations as separate questions.
 
 ## Quality status
 
-**Draft extraction, not ready for an automated teaching bot.** All correct-answer and explanation fields are blank. Questions and year labels come from a third-party compilation and have not been authenticated against original JAMB papers.
+Answers and explanations are unverified and generally blank. Questions and year labels come from third-party compilations and have not been authenticated against original JAMB papers. Structural and duplicate checks do not establish educational accuracy or semantic uniqueness.
 
-Automated checks found 1,000 unique IDs and fingerprints, nonempty four- or five-option sets, matching CSV/JSON counts, and valid passage links. These checks do not establish semantic uniqueness or educational accuracy.
+The 79 new English records have four options, unique IDs and normalized question/option signatures, no exact overlap with the original English bank, and source-page matches. They require the corresponding comprehension passage from the external PDF. Passage text is not embedded in this batch. All 79 have approved_for_bot set to false; none has a verified answer.
 
-Known issues requiring review include mismatched options in record JAMB-ENG-1990-087 (printed row 313), trailing passage-header text in JAMB-ENG-1986-100 (row 170), and a suspicious source number in JAMB-ENG-1986-005 (row 157). Other transcription errors, missing emphasis and defective source wording may remain. These records are retained transparently in this draft rather than silently repaired.
+Other subjects contain records requiring diagram, table, notation and context review. Read their quality reports before use.
 
-## Source and reuse restrictions
+Known issues in the original English batch include mismatched options in JAMB-ENG-1990-087, trailing passage-header text in JAMB-ENG-1986-100, and a suspicious source number in JAMB-ENG-1986-005. This expansion does not repair those existing records. [Original English notes](data/english/NOTES.md)
 
-Credit: **LarnEDU**.
+## Sources and reuse
 
-- [Source PDF](https://www.larnedu.com/wp-content/uploads/2019/03/JAMB-Use-Of-English-Past-Questions-1983-2004-By-LarnEdu.pdf)
-- [Publisher terms](https://www.larnedu.com/jamb-past-practice-questions/)
+Credit: **LarnEDU**. [Publisher terms](https://www.larnedu.com/jamb-past-practice-questions/) permit credited sharing and prohibit direct or indirect monetisation. Exam-body and third-party passage rights have not been independently verified. This repository does not grant an unrestricted licence and is not cleared for a paid or ad-supported bot.
 
-The publisher permits credited sharing but prohibits direct or indirect monetisation. Exam-body rights have not been independently verified. This dataset is **not cleared for a commercial or ad-supported bot**. No unrestricted licence is granted by this repository.
+Additional reusable sources are still needed to complete the expansion. [Literature, IRS, Computer Studies and Hausa source research](research/literature_irs_computer_hausa_sources.json) does not contain question additions.
